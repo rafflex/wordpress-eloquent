@@ -6,6 +6,8 @@ class Taxonomy extends \Illuminate\Database\Eloquent\Model
 {
     protected $table = 'term_taxonomy';
     protected $taxonomy = null;
+    protected $guarded = [];
+    protected $timestamps = false;
 
     public function newQuery()
     {
