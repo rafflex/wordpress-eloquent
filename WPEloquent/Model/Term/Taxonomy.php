@@ -5,6 +5,7 @@ namespace WPEloquent\Model\Term;
 class Taxonomy extends \Illuminate\Database\Eloquent\Model
 {
     protected $table = 'term_taxonomy';
+    protected $primaryKey = 'term_taxonomy_id';
     protected $taxonomy = null;
     protected $guarded = [];
     public $timestamps = false;
