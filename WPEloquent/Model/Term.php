@@ -12,7 +12,7 @@ class Term extends \Illuminate\Database\Eloquent\Model
     protected $table = 'terms';
     protected $primaryKey = 'term_id';
     protected $guarded = [];
-    protected $timestamps = false;
+    public $timestamps = false;
 
     public function meta()
     {
