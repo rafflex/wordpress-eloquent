@@ -2,7 +2,7 @@
 
 namespace WPEloquent\Model;
 
-use \WPEloquent\Traits\HasMeta;
+use WPEloquent\Traits\HasMeta;
 
 class Post extends \Illuminate\Database\Eloquent\Model
 {

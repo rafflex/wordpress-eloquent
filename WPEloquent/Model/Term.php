@@ -2,7 +2,7 @@
 
 namespace WPEloquent\Model;
 
-use \WPEloquent\Traits\HasMeta;
+use WPEloquent\Traits\HasMeta;
 
 class Term extends \Illuminate\Database\Eloquent\Model
 {
