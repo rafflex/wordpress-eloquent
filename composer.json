@@ -1,15 +1,15 @@
 {
-    "name": "angusallman/wordpress-eloquent",
+    "name": "smartssa/wordpress-eloquent",
     "description": "Forked From: https://github.com/drewjbartlett/wordpress-eloquent. A Laravel wrapper for wordpress which turns all Wordpress models into Laravel Eloquent Models.",
     "keywords": [
         "wordpress",
         "eloquent",
         "laravel"
     ],
-    "homepage": "https://github.com/allmanaj/wordpress-eloquent",
+    "homepage": "https://github.com/smartssa/wordpress-eloquent",
     "support": {
-        "issues": "https://github.com/allmanaj/wordpress-eloquent/issues",
-        "source": "https://github.com/allmanaj/wordpress-eloquent"
+        "issues": "https://github.com/smartssa/wordpress-eloquent/issues",
+        "source": "https://github.com/smartssa/wordpress-eloquent"
     },
     "authors": [
         {
@@ -19,8 +19,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.6.4",
-        "illuminate/database": ">=5.8.24"
+        "php": ">=5.6.4"
     },
     "autoload": {
         "psr-4": {
